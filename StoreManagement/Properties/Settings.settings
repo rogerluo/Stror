@@ -1,0 +1,258 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="StoreManagement.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="InvalidIPAddressMsg" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">请输入正确的IP地址或者服务器</Value>
+    </Setting>
+    <Setting Name="InvalidIPPortMsg" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">请输入正确的端口号</Value>
+    </Setting>
+    <Setting Name="ABDescMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">登录成功，请在账本列表中选择对应账本。如果没有没有账本可供选择，请创建新的账本；如果没有选择账本则默认选择第一套账本；通过控制按钮可以创建或者删除账本。</Value>
+    </Setting>
+    <Setting Name="LMTABLE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LandMen</Value>
+    </Setting>
+    <Setting Name="MSSQLSYSDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">master</Value>
+    </Setting>
+    <Setting Name="MSSQLSYSTABLE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dbo.sysobjects</Value>
+    </Setting>
+    <Setting Name="MYSQLSYSDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mysql</Value>
+    </Setting>
+    <Setting Name="MYSQLSYSTABLE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">information_schema.tables</Value>
+    </Setting>
+    <Setting Name="InvalidABNameMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">请输入账本名称</Value>
+    </Setting>
+    <Setting Name="InvalidDBNameMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">请输入数据库名称，注意只能是英文字符</Value>
+    </Setting>
+    <Setting Name="LMSPFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LMSP.sql</Value>
+    </Setting>
+    <Setting Name="DftCompressRadio" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">90</Value>
+    </Setting>
+    <Setting Name="ServerIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.1.108</Value>
+    </Setting>
+    <Setting Name="SvrPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">7890</Value>
+    </Setting>
+    <Setting Name="BufferSize" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">32</Value>
+    </Setting>
+    <Setting Name="CmdLen" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="BufferPrefixLen" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="ApplicationHistory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">opshis.xml</Value>
+    </Setting>
+    <Setting Name="ABSPFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ABSP.sql</Value>
+    </Setting>
+    <Setting Name="AdminConfirmDescription" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">由于接下来操作需要拥有管理员级别的操作，所以请用管理员账户登陆</Value>
+    </Setting>
+    <Setting Name="UsernameInput" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">用户名:</Value>
+    </Setting>
+    <Setting Name="PasswordInput" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">密码  :</Value>
+    </Setting>
+    <Setting Name="KeepHistoryInput" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">记住登陆</Value>
+    </Setting>
+    <Setting Name="SysChangeUserDesc" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">切换操作用户</Value>
+    </Setting>
+    <Setting Name="UsernameInputHint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">请输入用户名</Value>
+    </Setting>
+    <Setting Name="PasswordInputHint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">请输入密码</Value>
+    </Setting>
+    <Setting Name="UsernamePasswordInputError" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">用户名或者密码错误</Value>
+    </Setting>
+    <Setting Name="SysChangeUserSuccess" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">切换操作用户成功</Value>
+    </Setting>
+    <Setting Name="SysChangeABDesc" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">现有账本列表：</Value>
+    </Setting>
+    <Setting Name="SysChangeABInitError" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">获取账本列表出错</Value>
+    </Setting>
+    <Setting Name="SysChangeABError" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">切换账本失败</Value>
+    </Setting>
+    <Setting Name="SysChangeABSuccess" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">切换账本成功</Value>
+    </Setting>
+    <Setting Name="ABInputHint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">请选择账本</Value>
+    </Setting>
+    <Setting Name="SysChangeABSameDesc" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">已经是当前账本</Value>
+    </Setting>
+    <Setting Name="SysChangePwdOldInput" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">原密码：</Value>
+    </Setting>
+    <Setting Name="SysChangePwdNewInput" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">新密码：</Value>
+    </Setting>
+    <Setting Name="SysChangePwdNewInput2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">确认新密码：</Value>
+    </Setting>
+    <Setting Name="SysChangePwdNotMatch" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">新密码两次输入不正确</Value>
+    </Setting>
+    <Setting Name="SysChangePwdIsNotValid" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">原密码输入失败</Value>
+    </Setting>
+    <Setting Name="SysChangePwdError" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">更新密码失败</Value>
+    </Setting>
+    <Setting Name="SysChangePwdSuccess" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">更新密码成功</Value>
+    </Setting>
+    <Setting Name="SysChangePwdOldInputHint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">请输入旧密码</Value>
+    </Setting>
+    <Setting Name="SysChangePwdNewInputHint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">请输入新密码</Value>
+    </Setting>
+    <Setting Name="SysChangePwdNewInput2Hint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">请输入确认新密码</Value>
+    </Setting>
+    <Setting Name="GoodsInfoGoodsId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">商品编号</Value>
+    </Setting>
+    <Setting Name="GoodsInfoGoodsFullName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">商品全名</Value>
+    </Setting>
+    <Setting Name="GoodsInfoGoodsAbbrName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">商品缩写</Value>
+    </Setting>
+    <Setting Name="GoodsInfoBarCodeFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">条形码格式</Value>
+    </Setting>
+    <Setting Name="GoodsInfoBarCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">条形码编号</Value>
+    </Setting>
+    <Setting Name="GoodsInfoExpired" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">过期日期</Value>
+    </Setting>
+    <Setting Name="GoodsInfoSeason" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">季节</Value>
+    </Setting>
+    <Setting Name="GoodsInfoBrand" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">品牌</Value>
+    </Setting>
+    <Setting Name="GoodsInfoStuff" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">材料</Value>
+    </Setting>
+    <Setting Name="GoodsInfoPicture" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">商品图片</Value>
+    </Setting>
+    <Setting Name="GoodsInfoBasicInfo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">商品基本信息</Value>
+    </Setting>
+    <Setting Name="GoodsInfoPictureImport" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">导入</Value>
+    </Setting>
+    <Setting Name="GoodsInfoPictureRemove" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">删除</Value>
+    </Setting>
+    <Setting Name="GoodsInfoUnit" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">商品单位</Value>
+    </Setting>
+    <Setting Name="GoodsInfoUnspecifiedPicture" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">unspecified.gif</Value>
+    </Setting>
+    <Setting Name="PictureFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Pics</Value>
+    </Setting>
+    <Setting Name="UnspecifiedPicture" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Unspecified.gif</Value>
+    </Setting>
+    <Setting Name="LeftArrowPicture" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">left.gif</Value>
+    </Setting>
+    <Setting Name="RightArrowPicture" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">right.gif</Value>
+    </Setting>
+    <Setting Name="GoodsInfoPrice1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">零售价1</Value>
+    </Setting>
+    <Setting Name="GoodsInfoPrice2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">零售价2</Value>
+    </Setting>
+    <Setting Name="GoodsInfoPrice3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">零售价3</Value>
+    </Setting>
+    <Setting Name="GoodsViewerTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">商品信息</Value>
+    </Setting>
+    <Setting Name="FolderSettingCreateDesc" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">创建商品分类</Value>
+    </Setting>
+    <Setting Name="FolderSettingModifyDesc" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">修改商品分类</Value>
+    </Setting>
+    <Setting Name="FolderSettingName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">商品分类名称</Value>
+    </Setting>
+    <Setting Name="FolderSettingEmptyName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">请输入商品分类</Value>
+    </Setting>
+    <Setting Name="FolderSettingParentIdInexistenceErrorMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">父分类不存在</Value>
+    </Setting>
+    <Setting Name="FolderSettingSameFolderErrorMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">同名分类已经存在</Value>
+    </Setting>
+    <Setting Name="FolderSettingAddSuccess" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">创建分类成功</Value>
+    </Setting>
+    <Setting Name="FolderSettingModifySuccess" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">修改分类成功</Value>
+    </Setting>
+    <Setting Name="ThrobberImage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">./Pics/Throbber.gif</Value>
+    </Setting>
+    <Setting Name="GetBarCodeFormatError" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">获取条形码格式失败</Value>
+    </Setting>
+    <Setting Name="SaveModifyHint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">是否保存修改</Value>
+    </Setting>
+    <Setting Name="WarningTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">警告</Value>
+    </Setting>
+    <Setting Name="InformationTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">提示</Value>
+    </Setting>
+    <Setting Name="ErrorTitle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">错误</Value>
+    </Setting>
+    <Setting Name="Size" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">尺寸</Value>
+    </Setting>
+    <Setting Name="Color" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">颜色</Value>
+    </Setting>
+    <Setting Name="GetAllColorError" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">获取颜色列表失败</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
