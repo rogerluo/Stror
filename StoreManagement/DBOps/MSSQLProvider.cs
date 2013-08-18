@@ -800,7 +800,7 @@ namespace StoreManagement
                     {
                         while (dr.Read())
                         {
-                            dr[""]
+                            
                         }
                         ret = true;
                     }
