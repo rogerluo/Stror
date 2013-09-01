@@ -5,11 +5,12 @@ using StoreManagement;
 namespace StoreManagement_Test
 {
     [TestClass]
-    public class testDBOps
+    public class testmssqlDbOps
     {
         [TestMethod]
-        public void TestMethod1()
+        public void testConnect()
         {
+            IDBProvider mssqldb = new StoreManagement.MSSQLProvider();
         }
     }
 }

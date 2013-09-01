@@ -5,7 +5,7 @@ using System.Text;
 
 namespace StoreManagement.Model
 {
-    internal class GoodsInfo
+    public class GoodsInfo
     {
         public Int64 GoodsId { get; private set; }
         public Int32 FolderId { get; private set; }

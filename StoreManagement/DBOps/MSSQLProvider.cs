@@ -11,8 +11,12 @@ using StoreManagement.Model;
 
 namespace StoreManagement
 {
-    class MSSQLProvider : IDBProvider
+    public class MSSQLProvider : IDBProvider
     {
+        public MSSQLProvider()
+        {
+            return;
+        }
         public string Username { get; set; }
         public string Password { get; set; }
         public string DataSource { get; set; }
@@ -696,12 +700,7 @@ namespace StoreManagement
             return ret;
         }
 
-        /// <summary>
-        /// 返回所有条形码格式
-        /// </summary>
-        /// <param name="strDBName"></param>
-        /// <param name="fmts"></param>
-        /// <returns></returns>
+        // 返回所有条形码格式
         public bool GetBarCodeFormat(string strDBName, Dictionary<int, string> fmts)
         { 
             bool ret = false;
